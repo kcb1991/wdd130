@@ -27,6 +27,7 @@ h1 {
 }
 
 main img {
+    float: right;
     width: 150px;
     height: var(--image-height);
     border: var(--border-size) solid black;
