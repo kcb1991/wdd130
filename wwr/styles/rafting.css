@@ -1,0 +1,17 @@
+:root{
+    --primary-color:#4895ef;
+    --secondary-color:#a47148;
+    --accent1-color:#ffffff;
+    --accent2-color:#1d3557;
+    --heading-font: "Bebas Neue",sans-serif;
+    --body-font: "Quicksand", sans-serif;
+}
+header{
+    background-color: var(--primary-color);
+    color: var(--accent2-color)
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}

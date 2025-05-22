@@ -1,5 +1,5 @@
 :root {
-    --heading-background-color: darkblue;
+    --heading-background-color: rgb(55, 55, 185);
     --image-height: auto;
     --border-size: 1px;
 }
@@ -12,6 +12,7 @@
 }
 
 nav {
+    position:relative;
     background-color: var(--heading-background-color);
     padding: 10px;
 }
@@ -23,6 +24,8 @@ nav a {
 }
 
 h1 {
+    left: 220px;
+    position:relative;
     color: var(--heading-background-color);
 }
 
@@ -31,7 +34,7 @@ main img {
     width: 150px;
     height: var(--image-height);
     border: var(--border-size) solid black;
-    padding: 2px;
+    padding: 5px;
     box-shadow: 0 0 30px gray;
 }
 
