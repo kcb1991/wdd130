@@ -72,8 +72,13 @@ h1 {
 
 .hero article img {
     float: right;
-    width: 125px;
+    width: 200px;
+    margin-right: 16px;
 }
-div{
-    position: relative;
+.hero article {
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    padding: 16px;
+    
 }
