@@ -9,7 +9,7 @@
 
 header {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 3fr;
     align-content: center;
     background-color: var(--primary-color);
     color: var(--accent2-color)
@@ -44,6 +44,8 @@ footer {
 
 h1,
 h2 {
+    display: flex;
+    justify-content: center;
     font-family: var(--heading-font);
     color: var(--secondary-color);
 }
@@ -93,19 +95,37 @@ h1 {
 }
 
 .hero article {
+    display: flex;
+    flex-direction: row-reverse;
     position: absolute;
     top: 150px;
     width: 100%;
     padding: 16px;
+    color: var(--accent1-color);
 
 }
 
 .adventure {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    justify-self: center;
 }
+
 .copy {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+}
+
+.figures {
+    max-width: 840px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
