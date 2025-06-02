@@ -102,11 +102,6 @@ h1 {
 
 }
 
-.figures {
-    display:flex;
-    justify-content: center;
-}
-
 .copy {
     display: flex;
     align-items: center;
@@ -115,5 +110,9 @@ h1 {
 
 .section {
     display: flex;
-
+}
+.adventure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
