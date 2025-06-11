@@ -117,14 +117,8 @@ h1 {
     justify-content: center;
 }
 .address-map-box {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
-.address {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.map {
-    width: 100%;
+    display:grid;
+    max-width: 840px;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 2fr;
 }
