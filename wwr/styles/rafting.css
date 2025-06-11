@@ -118,4 +118,13 @@ h1 {
 }
 .address-map-box {
     display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.map {
+    width: 100%;
 }
