@@ -119,4 +119,5 @@ h1 {
 .address-map-box {
     display: grid;
     grid-template-columns: 2fr 2fr;
+    justify-content: center;
 }
