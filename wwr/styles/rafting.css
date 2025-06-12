@@ -150,3 +150,7 @@ h1 {
     background-color: var(--accent1-color);
     color: var(--accent2-color);
 }
+.employees {
+    display: flex;
+    flex-direction: column;
+}
