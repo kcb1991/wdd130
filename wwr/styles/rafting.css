@@ -99,7 +99,6 @@ h1 {
     top: 150px;
     width: 100%;
     padding: 16px;
-
 }
 
 .copy {
@@ -120,7 +119,7 @@ h1 {
     display: grid;
     grid-template-columns: 2fr 3fr;
     grid-template-rows: 15% 10%;
-    margin-top: 30px;
+    margin-top: 100px;
     margin-bottom: -250px;
     justify-items: end;
     
@@ -133,4 +132,16 @@ h1 {
 .form {
     display: grid;
     align-items: start;
+}
+.contact-h1 {
+    position: relative;
+    top: 5px;
+    right:20px;
+    margin-left: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
 }
