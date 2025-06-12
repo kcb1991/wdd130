@@ -118,7 +118,8 @@ h1 {
 }
 .address-map-form {
     display: grid;
-    grid-template-columns: repeat(1fr, 2);
-    justify-content: center
+    grid-template-columns: 3fr 1fr;
+    margin-top: 30px;
+    justify-items: center;
 }
 
