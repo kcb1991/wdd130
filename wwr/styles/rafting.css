@@ -110,11 +110,13 @@ h1 {
 .section {
     display: flex;
 }
+
 .adventure {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .address-map-form {
     display: grid;
     grid-template-columns: 2fr 3fr;
@@ -122,21 +124,24 @@ h1 {
     margin-top: 100px;
     margin-bottom: -250px;
     justify-items: end;
-    
+
 }
+
 .address {
     display: grid;
     justify-content: center;
     align-self: flex-start;
 }
+
 .form {
     display: grid;
     align-items: start;
 }
+
 .contact-h1 {
     position: relative;
     top: 5px;
-    right:20px;
+    right: 20px;
     margin-left: 20px;
     width: 100%;
     padding: 16px;
