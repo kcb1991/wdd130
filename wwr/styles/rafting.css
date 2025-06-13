@@ -151,6 +151,6 @@ h1 {
     color: var(--accent2-color);
 }
 .employees {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    justify-content: center;
 }
