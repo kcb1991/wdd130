@@ -153,4 +153,5 @@ h1 {
 .employees {
     display: grid;
     justify-content: center;
+    max-width: 400;
 }
