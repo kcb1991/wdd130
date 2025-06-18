@@ -44,8 +44,6 @@ footer {
 
 h1,
 h2 {
-    display: flex;
-    justify-content: center;
     font-family: var(--heading-font);
     color: var(--secondary-color);
 }
@@ -54,7 +52,6 @@ nav,
 p,
 section,
 article {
-    max-width: 100%;
     margin: 16px;
     padding: 8px;
 }
@@ -64,10 +61,6 @@ article {
 }
 
 .hero {
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    flex-direction: row-reverse;
     position: relative;
 }
 
@@ -90,8 +83,7 @@ h1 {
 
 .hero article img {
     float: right;
-    width: 200px;
-    margin-right: 16px;
+    width: 125px;
 }
 
 .hero article {
