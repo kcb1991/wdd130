@@ -21,6 +21,8 @@ header {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    font-style: var(--heading-font);
+    color: var(--secondary-color);
 }
 
 * {
@@ -38,14 +40,14 @@ body {
 header,
 main,
 footer {
-    width: 840px;
+    width: 1000px;
     margin: 0 auto;
 }
 
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--secondary-color);
+    color: var(--accent1-color);
 }
 
 nav,
@@ -109,7 +111,8 @@ h1 {
 
 .adventure {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
