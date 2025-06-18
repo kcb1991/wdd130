@@ -97,6 +97,7 @@ h1 {
     top: 150px;
     width: 100%;
     padding: 16px;
+    text-align: center;
 }
 
 .copy {
@@ -107,13 +108,11 @@ h1 {
 
 .section {
     display: flex;
+    text-align: center;
 }
 
 .adventure {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
+    max-width: 840px;
 }
 
 .address-map-form {
@@ -153,4 +152,8 @@ h1 {
     display: grid;
     justify-content: center;
     max-width: 400;
+}
+.images {
+    display: grid;
+    justify-content: center;
 }
