@@ -139,20 +139,8 @@ h1 {
 }
 
 .contact-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    /* Two equal-width columns */
-    gap: 20px;
-    /* Optional: space between columns */
-    max-width: 100%;
-    padding: 20px;
+    display: flex;
 }
-
-.left-column,
-.right-column {
-    width: 100%;
-}
-
 
 .contact-h1 {
     position: relative;
