@@ -22,7 +22,8 @@ header {
     justify-content: space-around;
     align-items: center;
     font-style: var(--heading-font);
-    color: var(--secondary-color);
+    color: var(--accent1-color);
+    font-size: 30px;
 }
 
 * {
@@ -63,6 +64,10 @@ article {
 
 .hero {
     position: relative;
+}
+
+.hero h1 {
+    font-size: 80px;
 }
 
 .hero img {
@@ -109,12 +114,27 @@ h1 {
 
 .section {
     display: grid;
-    grid-template-columns: repeat(1fr,3);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    text-align: center;
+}
+
+.section h2 {
+    grid-column: span 3;
+    font-size: 60px;
+}
+
+.section p {
+    font-size: 24px;
 }
 
 .adventure {
     width: 100vw;
     text-align: center;
+}
+
+.adventure h2 {
+    font-size: 60px;
 }
 
 .address-map-form {
