@@ -26,6 +26,15 @@ header {
     font-size: 30px;
 }
 
+.navigation a {
+    color: var(--accent1-color);
+    
+}
+
+.navigation a:hover {
+    color: var(--secondary-color);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -139,8 +148,20 @@ h1 {
 }
 
 .contact-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+    align-items: start;
+    justify-content: space-evenly;
 }
+
+.left-column,
+.right-column {
+    width: 100%;
+}
+
+
 
 .contact-h1 {
     position: relative;
