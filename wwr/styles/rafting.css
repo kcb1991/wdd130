@@ -257,7 +257,7 @@ h1 {
 }
 
 .trip-cards {
-    background-color: #f7f9fb;
+    background-color: var(--secondary-color);
     padding: 2rem;
     text-align: center;
 }
@@ -275,7 +275,7 @@ h1 {
 }
 
 .trip-card {
-    background-color: white;
+    background-color: var(--accent2-color);
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 1rem;
